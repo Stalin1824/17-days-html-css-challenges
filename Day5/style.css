@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+      margin: 0;
+}
+
+
+.you{
+    font-size: 18px;
+}
+.like{
+    font-size: 11px;
+}
+.con{
+    border: 1px solid  #035efc;
+     color: #035efc;
+     border-radius:20px;
+    
+
+    }
+
+.consume{
+      border: 1px solid  #035efc;
+     color: #035efc;
+     border-radius:20px;
+    padding: 6px;
+}
+
+.row{
+    position: relative;
+}
+.fa-bell{
+    position: absolute;
+   top: -40px;
+   right: -50px;
+   cursor: pointer;
+}
+
+
+
+@media screen and (max-width:520px) {
+.fa-bell{
+      right: -30px;
+       top: -50px;
+    }
+  }
+
+
