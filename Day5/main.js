@@ -1,5 +1,5 @@
-
-// toggel functionality
+By using ES5
+// toggel functionality 
 
 let a =true;
 function UI(){
@@ -20,10 +20,7 @@ function UI(){
 
 }
 
-
-
-
-
+// event fa-bell
 document.querySelector(".fa-bell"),addEventListener(("click"),()=>{
    const  ui =new UI()
       ui.toggle()
