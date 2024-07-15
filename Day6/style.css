@@ -1,0 +1,131 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(210, 195, 190);
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.community-wrapper>div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+
+.community-wrapper>div>div {
+    background-color: white;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+.community-wrapper>div>div>div:nth-child(1) {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.community-wrapper>div>div>div:nth-child(2)>h1 {
+    margin-bottom: 10px;
+}
+
+.community-wrapper>div>div>div:nth-child(2)>p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+.community-wrapper>div>div>div:nth-child(2)>p span {
+    display: block;
+}
+
+.community-wrapper>div>div>div:nth-child(3) {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.community-wrapper>div>div>div:nth-child(4) {
+    display: flex;
+    gap: 20px;
+}
+
+.community-wrapper>div>div>div:nth-child(4)>a:nth-child(1) {
+    width: 100px;
+}
+
+.community-wrapper>div>div>div:nth-child(4)>a {
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.post-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.adding {
+    background-color: white;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-solid {
+    cursor: pointer;
+}
+
+.area {
+    border: none;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+}
+
+.area:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 480px) {
+    .community-wrapper>div>div>div:nth-child(1) {
+        gap: 40px;
+    }
+
+
+    .community-wrapper>div>div>div:nth-child(4)>a {
+        padding: 10px 25px;
+    }
+
+    .community-wrapper>div>div>div:nth-child(2)>p {
+        font-size: 18px;
+
+    }
+
+
+}
