@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.position {
+    margin-top: 50px;
+}
+
+.position>div>h1,
+p {
+
+    text-align: center;
+}
+
+.position>div>p {
+    margin-top: 40px;
+    color: gray;
+}
+
+.position>div>p>span {
+    display: block;
+}
+
+.position-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.position-wrapper>div {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.position-wrapper>div>div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.position-wrapper>div>div>div {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 30px;
+}
+
+.position-wrapper>div>div>a {
+    border: 1px solid grey;
+    padding: 10px 20px;
+}
+
+
+
+@media screen and (max-width:740px) {
+    .position-wrapper>div {
+        max-width: 500px;
+
+    }
+
+    .position>div>p {
+        padding: 0px 10px;
+
+    }
+
+    .position>div>p>span {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:520px) {
+
+    .position-wrapper {
+        justify-content: center;
+    }
+
+    .position-wrapper>div {
+        max-width: 400px;
+    }
+
+    .position-wrapper>div>div {
+        width: 400px;
+
+    }
+
+
+}
+
+@media screen and (max-width:420px) {
+    .position-wrapper>div {
+        max-width: 300px;
+
+    }
+}
