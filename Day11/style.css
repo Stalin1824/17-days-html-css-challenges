@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color:lightblue;
+}
+
+.sport-wrapper > div > div:nth-child(1) > div > div:nth-child(1){
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+.sport-wrapper > div > div:nth-child(1) > div > div:nth-child(1) >a{
+   font-size: 12px;
+}
+.sport-wrapper > div > div:nth-child(1) > div > div:nth-child(2){
+    border-left: 10px solid rosybrown;
+}
+
+
+.sport-wrapper > div > div:nth-child(1) > div > div:nth-child(2) img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.sport-wrapper > div > div:nth-child(2) {
+     position: relative;
+     top: -40px;
+     left: -300px;
+}
+.sport-wrapper > div > div:nth-child(2) > div > div:nth-child(1) img{
+  border-top-left-radius:20px;
+  border-bottom-left-radius:20px;
+
+}
+.sport-wrapper > div > div:nth-child(2) > div > div:nth-child(2) {
+     border-top-right-radius: 20px;
+     border-bottom-right-radius:20px ;
+
+}
+.sport-wrapper > div > div:nth-child(2) > div > div:nth-child(2) > a{
+     display: inline-block;
+     background-color: rosybrown;
+     color: white;
+     padding:5px; 
+     float:right;
+    margin-bottom: 40px;
+}
+
+.sport-wrapper > div > div:nth-child(3){
+     border-radius: 20px;   
+    position: relative;
+        top: -90px;
+}
+
+@media screen and (max-width: 768px) {
+.sport-wrapper > div > div:nth-child(1) > div > div:nth-child(2){
+
+    border-top:10px solid rosybrown; 
+    border-left:none;
+
+}
+.sport-wrapper > div > div:nth-child(1) > div > div:nth-child(2) img{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+}
+.sport-wrapper > div > div:nth-child(1) > div > div:nth-child(1){
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+}
+
+.sport-wrapper > div > div:nth-child(2) {
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+.sport-wrapper > div > div:nth-child(2) > div > div:nth-child(1) img{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:0px;
+  }
+  .sport-wrapper > div > div:nth-child(2) > div > div:nth-child(2) {
+       border-top-right-radius: 0px;
+       border-bottom-right-radius:20px ;
+       border-bottom-left-radius: 20px;
+  }
+.sport-wrapper > div > div:nth-child(3){
+   top: 90px;
+}
+  }
