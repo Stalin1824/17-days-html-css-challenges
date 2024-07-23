@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.groceries {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color: #042e76;
+}
+
+.groceries-wrapper {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.groceries-wrapper>div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    position: relative;
+}
+
+.groceries-wrapper>div:nth-child(1)>i {
+    cursor: pointer;
+}
+
+.groceries-wrapper>div:nth-child(1)>div {
+    position: absolute;
+    display: none;
+    gap: 5px;
+    flex-direction: column;
+    top: 30px;
+    left: 170px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: grey;
+}
+
+.groceries-wrapper>div:nth-child(1)>div>span:hover {
+    color: blue;
+    cursor: pointer;
+    padding: 3px;
+    border: 1px solid grey;
+}
+
+.groceries-wrapper>span {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.groceries-wrapper>span>a {
+    color: #042e76;
+
+}
+
+.groceries-wrapper>div:nth-child(3)>div {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.groceries-wrapper>div:nth-child(3)>div>h5 {
+    width: 20px;
+    height: 20px;
+    border-radius: 80%;
+    border: 1px solid gray;
+}
+
+
+.plus {
+    margin-top: 40px;
+    text-align: right;
+}
+
+
+
+.plus>h1 {
+    border: 1px solid gray;
+    display: inline-block;
+    padding: 6px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: #042e76;
+}
+
+.groceries-wrapper>div:nth-child(3)>div>h5>i {
+    display: none;
+}
+
+.add {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.toadd {
+    width: 20px;
+    height: 20px;
+    border-radius: 80%;
+    border: 1px solid gray;
+}
+
+.groceries-wrapper>div:nth-child(4) {
+    margin-top: 25px;
+}
+
+.userVal {
+    margin-bottom: 4px;
+}
