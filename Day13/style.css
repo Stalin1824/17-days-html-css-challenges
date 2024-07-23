@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #051d48;
+}
+
+body {
+    color: #051d48;
+}
+
+.container {
+    width: 300px;
+    margin: 0px auto;
+
+}
+
+.basic-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+.basic-wrapper>div:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #051d48;
+    padding: 20px 15px;
+    border-radius: 90%;
+}
+
+.basic-wrapper>div:nth-child(1)>span {
+    margin-top: 5px;
+}
+
+.basic-wrapper>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.basic-wrapper>div:nth-child(3) {
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+}
+
+.month{
+    background-color: white;
+    color: #051d48;
+    width: 50px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+
+.month:hover {
+    background-color: #051d48;
+    color: white;
+    transition: 1s;
+}
+
+.broke{
+    background-color: #051d48;
+   color: white;
+    width: 50px;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+
+
+.basic-wrapper>a {
+    background-color: #051d48;
+    color: white;
+    padding: 10px 80px;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.bronze-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+.bronze-wrapper>i {
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+.bronze-wrapper>p:nth-child(1) {
+    display: block;
+    background-color: aqua;
+
+}
+
+.success>span {
+    display: block;
+    text-align: center;
+}
+
+.success>span:nth-child(2)>span {
+    color: #051d48;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, sans-serif;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+.downloads {
+    margin: 20px 0px;
+
+}
+
+.downloads>span {
+    font-size: 20px;
+    font-weight: 800;
+}
