@@ -1,5 +1,6 @@
 var footSection = document.querySelector(".foot-section")
 var isShow  = true
+// toggel functionality
 footSection.addEventListener("click",(e)=>{
     if(e.target.className==="click  d-md-none fa-solid fa-arrow-right " && isShow){
         e.target.style.transform="rotate(90deg)"
