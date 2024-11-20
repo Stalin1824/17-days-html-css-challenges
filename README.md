@@ -1,1 +1,1 @@
-# 50-days-html-css-challenges
+# 17-days-html-css-challenges
